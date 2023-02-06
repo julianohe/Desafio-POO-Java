@@ -1,0 +1,31 @@
+
+
+public class Mentoria {
+    private String titulo;
+    private String descriçao;
+    private LocalDate data ;
+
+    public String getTitulo() {
+        return titulo;
+    }
+    public void setTitulo () {
+        this.titulo = titulo;
+        
+    }
+    public String getDescriçao() {
+        return descriçao;
+    }
+    public void setDescrriçao() {
+        this.descriçao = descriçao;
+        
+    }
+    public String getData() {
+        return data;
+    }
+    public void setData () {
+        this.data = data;
+        
+    }
+
+
+}
