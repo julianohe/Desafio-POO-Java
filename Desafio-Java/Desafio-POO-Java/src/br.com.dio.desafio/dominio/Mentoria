@@ -15,16 +15,24 @@ public class Mentoria {
     public String getDescriçao() {
         return descriçao;
     }
-    public void setDescrriçao() {
+    public void setDescriçao(String descricao) {
         this.descriçao = descriçao;
         
     }
     public String getData() {
         return data;
     }
-    public void setData () {
+    public void setData (LocalDate data) {
         this.data = data;
         
+        public String toString () {
+            return "Mentoria{" + 
+                    "titulo" + titulo + '\'' +
+                    ", descricao ='" + descriçao + '\'' + 
+                    ", data=" + data +
+                    '}';
+        }
+
     }
 
 
