@@ -1,9 +1,8 @@
 import java.time.LocalDate;
 
-import br.com.dio.desafio.dominio.conteudo;
-
 public class Mentoria extends Conteudo{
     
+    private static final double XP_PADRAO = 0;
     private LocalDate data ;
 
    public double calcularXp() {
